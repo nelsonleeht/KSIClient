@@ -1,0 +1,275 @@
+2017-07-12 17:53:04,242 [1] FATAL KSIConverter.Program [(null)] - Fatal Statement
+2017-07-12 17:53:04,248 [1] ERROR KSIConverter.Program [(null)] - System.Exception: File doesn't exist.
+   at KSIConverter.Program.Main(String[] args) in C:\Users\Nelson Lee\Desktop\Work\TopGlove\KSIConverter\KSIConverter\Program.cs:line 54
+2017-07-12 17:53:04,250 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-07-12 17:53:54,745 [1] INFO  KSIConverter.Program [(null)] - Entering Application
+2017-07-12 17:53:54,764 [1] ERROR KSIConverter.Program [(null)] - Error statement
+2017-07-12 17:53:54,765 [1] WARN  KSIConverter.Program [(null)] - Warning statement
+2017-07-12 17:53:54,766 [1] FATAL KSIConverter.Program [(null)] - Fatal Statement
+2017-07-12 17:53:54,766 [1] ERROR KSIConverter.Program [(null)] - System.Exception: File doesn't exist.
+   at KSIConverter.Program.Main(String[] args) in C:\Users\Nelson Lee\Desktop\Work\TopGlove\KSIConverter\KSIConverter\Program.cs:line 54
+2017-07-12 17:53:54,769 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-07-12 17:56:58,974 [1] INFO  KSIConverter.Program [(null)] - Entering Application
+2017-07-12 17:56:58,996 [1] ERROR KSIConverter.Program [(null)] - Error statement
+2017-07-12 17:56:58,996 [1] WARN  KSIConverter.Program [(null)] - Warning statement
+2017-07-12 17:56:58,996 [1] FATAL KSIConverter.Program [(null)] - Fatal Statement
+2017-07-12 17:56:58,997 [1] ERROR KSIConverter.Program [(null)] - System.Exception: File doesn't exist.
+   at KSIConverter.Program.Main(String[] args) in C:\Users\Nelson Lee\Desktop\Work\TopGlove\KSIConverter\KSIConverter\Program.cs:line 54
+2017-07-12 17:56:59,001 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-07-12 17:57:28,604 [1] INFO  KSIConverter.Program [(null)] - Entering Application
+2017-07-12 17:57:28,624 [1] ERROR KSIConverter.Program [(null)] - Error statement
+2017-07-12 17:57:28,624 [1] WARN  KSIConverter.Program [(null)] - Warning statement
+2017-07-12 17:57:28,624 [1] FATAL KSIConverter.Program [(null)] - Fatal Statement
+2017-07-12 17:57:28,624 [1] WARN  KSIConverter.Program [(null)] - Please specify a valid PDF file path.
+2017-07-12 17:57:28,625 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-07-13 10:45:31,708 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-07-13 10:45:31,755 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-07-13 10:45:31,756 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-07-13 10:45:31,767 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-07-13 10:45:35,929 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request POST : Create : OK
+2017-07-13 10:45:35,929 [1] INFO  KSIConverter.Program [(null)] - POST HTTP Web POST : Create : OK
+2017-07-13 10:45:36,053 [1] INFO  KSIConverter.Program [(null)] - RESULTS : GET : OK
+2017-07-13 10:45:36,209 [1] INFO  KSIConverter.Program [(null)] - Serialize Data START
+2017-07-13 10:45:36,210 [1] INFO  KSIConverter.Program [(null)] - The file C:\Users\Nelson Lee\Desktop\Work\guardtime_plugin.pdf has been processed.
+2017-07-13 10:45:36,213 [1] INFO  KSIConverter.Program [(null)] - Serialize Data END
+2017-07-13 10:45:36,214 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:06:56,915 [1] INFO  KSIConverter.Program [(null)] - sFile>>>lognet.dll
+2017-10-04 11:06:56,942 [1] ERROR KSIConverter.Program [(null)] - System.Exception: File doesn't exist.
+   at KSIConverter.Program.Main(String[] args) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 57
+2017-10-04 11:06:56,956 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:07:24,224 [1] INFO  KSIConverter.Program [(null)] - sFile>>>KSIConverter.txt
+2017-10-04 11:07:24,243 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 11:07:24,247 [1] ERROR KSIConverter.Program [(null)] - System.IO.IOException: The process cannot access the file 'C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\bin\Debug\KSIConverter.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at KSIConverter.Program.getHash(String filename) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 96
+   at KSIConverter.Program.Main(String[] args) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 61
+2017-10-04 11:07:24,283 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:08:39,297 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 11:08:39,323 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 11:08:39,356 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 11:08:39,357 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 11:08:39,366 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 11:08:43,280 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request POST : Create : OK
+2017-10-04 11:08:43,281 [1] INFO  KSIConverter.Program [(null)] - POST HTTP Web POST : Create : OK
+2017-10-04 11:08:43,428 [1] INFO  KSIConverter.Program [(null)] - RESULTS : GET : OK
+2017-10-04 11:08:43,488 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:27:49,327 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 11:27:49,359 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 11:27:49,403 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 11:27:49,407 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 11:27:49,419 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 11:27:51,677 [1] ERROR KSIConverter.Program [(null)] - System.Net.WebException: The remote server returned an error: (415) Unsupported Media Type.
+   at System.Net.HttpWebRequest.GetResponse()
+   at KSIConverter.Program.getSignature(String hashVal) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 132
+   at KSIConverter.Program.Main(String[] args) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 64
+2017-10-04 11:27:51,690 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:31:18,682 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 11:31:18,703 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 11:31:18,736 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 11:31:18,736 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 11:31:18,750 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 11:31:19,412 [1] ERROR KSIConverter.Program [(null)] - System.Net.WebException: The remote server returned an error: (415) Unsupported Media Type.
+   at System.Net.HttpWebRequest.GetResponse()
+   at KSIConverter.Program.getSignature(String hashVal) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 132
+   at KSIConverter.Program.Main(String[] args) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 64
+2017-10-04 11:31:19,418 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:33:37,422 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 11:33:37,442 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 11:33:37,472 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 11:33:37,472 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 11:33:37,488 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 11:33:38,267 [1] ERROR KSIConverter.Program [(null)] - System.Net.WebException: The remote server returned an error: (415) Unsupported Media Type.
+   at System.Net.HttpWebRequest.GetResponse()
+   at KSIConverter.Program.getSignature(String hashVal) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 133
+   at KSIConverter.Program.Main(String[] args) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 64
+2017-10-04 11:33:38,271 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:38:18,379 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 11:38:18,398 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 11:38:18,428 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 11:38:18,429 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 11:38:18,442 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 11:38:19,159 [1] ERROR KSIConverter.Program [(null)] - System.Net.WebException: The remote server returned an error: (415) Unsupported Media Type.
+   at System.Net.HttpWebRequest.GetResponse()
+   at KSIConverter.Program.getSignature(String hashVal) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 131
+   at KSIConverter.Program.Main(String[] args) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 64
+2017-10-04 11:38:19,164 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:40:01,687 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 11:40:01,706 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 11:40:01,737 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 11:40:01,737 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 11:40:01,750 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 11:40:03,027 [1] ERROR KSIConverter.Program [(null)] - System.Net.WebException: The remote server returned an error: (415) Unsupported Media Type.
+   at System.Net.HttpWebRequest.GetResponse()
+   at KSIConverter.Program.getSignature(String hashVal) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 131
+   at KSIConverter.Program.Main(String[] args) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 64
+2017-10-04 11:40:03,030 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:43:06,500 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 11:43:06,519 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 11:43:06,556 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 11:43:06,557 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 11:43:06,569 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 11:43:06,640 [1] ERROR KSIConverter.Program [(null)] - System.Net.WebException: The remote server returned an error: (415) Unsupported Media Type.
+   at System.Net.HttpWebRequest.GetResponse()
+   at KSIConverter.Program.getSignature(String hashVal) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 131
+   at KSIConverter.Program.Main(String[] args) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 64
+2017-10-04 11:43:06,644 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:46:27,524 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 11:46:27,548 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 11:46:27,587 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 11:46:27,587 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 11:46:27,602 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 11:46:28,712 [1] ERROR KSIConverter.Program [(null)] - System.Net.WebException: The remote server returned an error: (415) Unsupported Media Type.
+   at System.Net.HttpWebRequest.GetResponse()
+   at KSIConverter.Program.getSignature(String hashVal) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 132
+   at KSIConverter.Program.Main(String[] args) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 64
+2017-10-04 11:46:28,718 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:48:55,490 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 11:48:55,510 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 11:48:55,539 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 11:48:55,539 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 11:48:55,553 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 11:48:55,927 [1] ERROR KSIConverter.Program [(null)] - System.Net.WebException: The remote server returned an error: (415) Unsupported Media Type.
+   at System.Net.HttpWebRequest.GetResponse()
+   at KSIConverter.Program.getSignature(String hashVal) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 132
+   at KSIConverter.Program.Main(String[] args) in C:\Users\Nelson Lee\Desktop\Work\KSIClient\KSIConverter\Program.cs:line 64
+2017-10-04 11:48:55,932 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:49:53,826 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 11:49:53,846 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 11:49:53,875 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 11:49:53,875 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 11:49:53,892 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 11:49:57,241 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request POST : Create : OK
+2017-10-04 11:49:57,242 [1] INFO  KSIConverter.Program [(null)] - POST HTTP Web POST : Create : OK
+2017-10-04 11:49:57,378 [1] INFO  KSIConverter.Program [(null)] - RESULTS : GET : OK
+2017-10-04 11:49:57,402 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:53:31,975 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 11:53:31,995 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 11:53:32,023 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 11:53:32,024 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 11:53:32,037 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 11:53:32,876 [1] INFO  KSIConverter.Program [(null)] - {"DataHash":"FYOg7qSjRckBjU300Ii09yxlLeSvrZdLi1QjAClc8Uw=", "Metadata":"Test" }
+2017-10-04 11:53:35,254 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request POST : Create : OK
+2017-10-04 11:53:35,255 [1] INFO  KSIConverter.Program [(null)] - POST HTTP Web POST : Create : OK
+2017-10-04 11:53:35,396 [1] INFO  KSIConverter.Program [(null)] - RESULTS : GET : OK
+2017-10-04 11:53:35,419 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:55:25,830 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 11:55:25,852 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 11:55:25,883 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 11:55:25,884 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 11:55:25,897 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 11:55:26,826 [1] INFO  KSIConverter.Program [(null)] - {"DataHash":"FYOg7qSjRckBjU300Ii09yxlLeSvrZdLi1QjAClc8Uw=", "Metadata":"Test" }
+2017-10-04 11:55:29,234 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request POST : Create : OK
+2017-10-04 11:55:29,235 [1] INFO  KSIConverter.Program [(null)] - POST HTTP Web POST : Create : OK
+2017-10-04 11:55:29,398 [1] INFO  KSIConverter.Program [(null)] - RESULTS : GET : OK
+2017-10-04 11:55:29,423 [1] INFO  KSIConverter.Program [(null)] - Signature ID : 
+2017-10-04 11:55:29,423 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:56:32,176 [10] WARN  KSIConverter.Program [(null)] - Please specify a valid PDF file path.
+2017-10-04 11:56:32,229 [10] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:57:08,615 [8] WARN  KSIConverter.Program [(null)] - Please specify a valid PDF file path.
+2017-10-04 11:57:08,664 [8] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:57:24,987 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 11:57:25,007 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 11:57:25,038 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 11:57:25,038 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 11:57:25,055 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 11:57:25,173 [1] INFO  KSIConverter.Program [(null)] - {"DataHash":"FYOg7qSjRckBjU300Ii09yxlLeSvrZdLi1QjAClc8Uw=", "Metadata":"Test" }
+2017-10-04 11:57:27,240 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request POST : Create : OK
+2017-10-04 11:57:27,241 [1] INFO  KSIConverter.Program [(null)] - POST HTTP Web POST : Create : OK
+2017-10-04 11:57:27,372 [1] INFO  KSIConverter.Program [(null)] - RESULTS : GET : OK
+2017-10-04 11:57:27,396 [1] INFO  KSIConverter.Program [(null)] - Signature ID : 
+2017-10-04 11:57:27,397 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:58:06,678 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 11:58:06,698 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 11:58:06,727 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 11:58:06,727 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 11:58:06,740 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 11:58:07,425 [1] INFO  KSIConverter.Program [(null)] - {"DataHash":"FYOg7qSjRckBjU300Ii09yxlLeSvrZdLi1QjAClc8Uw=", "Metadata":"Test" }
+2017-10-04 11:58:09,233 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request POST : Create : OK
+2017-10-04 11:58:09,234 [1] INFO  KSIConverter.Program [(null)] - POST HTTP Web POST : Create : OK
+2017-10-04 11:58:09,367 [1] INFO  KSIConverter.Program [(null)] - RESULTS : GET : OK
+2017-10-04 11:58:09,389 [1] INFO  KSIConverter.Program [(null)] - Signature ID : 
+2017-10-04 11:58:09,390 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:58:21,234 [9] WARN  KSIConverter.Program [(null)] - Please specify a valid PDF file path.
+2017-10-04 11:58:21,268 [9] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:58:31,771 [10] WARN  KSIConverter.Program [(null)] - Please specify a valid PDF file path.
+2017-10-04 11:58:31,816 [10] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 11:59:20,372 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 11:59:20,395 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 11:59:20,445 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 11:59:20,445 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 11:59:20,457 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 11:59:21,158 [1] INFO  KSIConverter.Program [(null)] - {"DataHash":"FYOg7qSjRckBjU300Ii09yxlLeSvrZdLi1QjAClc8Uw=", "Metadata":"Test" }
+2017-10-04 11:59:23,256 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request POST : Create : OK
+2017-10-04 11:59:23,257 [1] INFO  KSIConverter.Program [(null)] - POST HTTP Web POST : Create : OK
+2017-10-04 11:59:23,388 [1] INFO  KSIConverter.Program [(null)] - RESULTS : GET : OK
+2017-10-04 11:59:23,448 [1] INFO  KSIConverter.Program [(null)] - Signature ID : {
+  "ContentEncoding": null,
+  "ContentType": null,
+  "Data": {
+    "id": "b96cb39d-6caf-44b8-bc7e-2877f2c8acf7",
+    "signature": "iAAHF4gBAFQCBFnUXJsDAQwDAQkDAQcDAQ8DAQMDAQMFIQEVg6DupKNFyQGNTfTQiLT3LGUt5K+tl0uLVCMAKVzxTAYBAQcUAQAEEH4CAQEBCm90LmhxNnByOQCIAQBfAgRZ1FybAwEMAwEJAwEHAwEPAwEDBSEBe0Gdg71uPtDJfH4Sk4ayYY9lm1/z2KVmf5VGULBqOvYGAQEHIgQgfgEBYQZrYXRqYQBiCGthdGphOjEAYwBkBwVasKIRtGSIAQCuAgRZ1FybAwEMAwEJAwEHAwEPBSEBnoQyQ+d1XK1Dj0oLIFjDhJipKgHsMHuKwarLkX094YYGAQEHJAQifgIBAWEDR1QAYgtBTGUyLTEtMjo3AGMBBWQHBVqwppBXAwcmAQEBAiEBrQ8a29QUSKpkm7uN5F3Dw+EX1E/7f6TicBlLTEOZQ0AHJgEBBQIhAUWiIGgnblp+dkn1xIl1pcphiasmXRJ0wpIqbGAVDoYwiAEAgQIEWdRcmwMBDAMBCQMBBwUhAU4nmE6N7v74ONDP1maQUrwuQKTGR3PVGjc8/J59dcwKBgEBByIEIH4CAQFhA0dUAGIJQVNlMi0wOjAAYwECZAcFWrCiGfqaByYBAQECIQETwLZRcdR5gjcuPYVq6TEg5zjLgl+uAsZF5zIVhMGiUogBAJ4CBFnUXJsDAQwDAQkFIQHhQx629/9e9Po9WzDVTsXGQD2JBBNo1Kxt+soZBpPEjQYBAQcgBB5+AgEBYQNHVABiB0FOZTI6MQBjAR1kBwVasKIaxeAIIwIhAQI4t1RxZ4Hw2znh2eydHUVICIi9nGSw462oHwdDj/L4CCMCIQE7uXlyvLL0S2GXWW1Wln/k3B44KNOyQaZZJjeEARmZ9IgBAKQCBFnUXJsDAQwFIQHL5lKjSB84OZ/UiBL4kYyaW/feFiknypyUQ65dLpPOKgYBAQgmAQFAAiEBcIdU+99gfiiAP00qQSw+4CDni/ZSzlGspBKX3cIDAW4IJgEBLQIhARxKXShaFg/lRgglUh6U3bH3SoJG/AFzCVCiqFH55JFsByMCIQGxlaC8NHDmRYGduUfWh51WN48T4v+8OYlJ2anD8ltdhYgCAoIBBFnUXJsCBFnUXJsFIQF364hcJH+Pn2kVEdwx7iaPoOnBShJn0pE1WZe3RktntAghAU9Fjak1+9STs7tOXazW1XXrtWuT4Fo74bQEHj677EqXCCEB2qXaV5VHnN46/lUAK1PdnL50kD8Qz1Nz60L0Nf0UrW8IIQFBH8uu24Y7eFgZU4odl6lX1hUX2enR35GEgVxWYXoJNAghAZG3WNZeAEcCUafAhgt//wS5r+BVdw/W2jNoRhZ2D+veCCEBloNa2SkduBHrdQdSyinYAtCbjaCX4dcCmuZjHa9FsxoIIQFglykHfYzwFNu4ScwEc+mgSk5E1hcNKE5q2AHjcY6mWAghAcjZxy74mndbwSQrDgQskVsru65HgsyAjsNUWWSNWlQpCCEBO1FmVilPVIu89pb3md4sDtF+teLjUYK72Grx62kcDoEIIQEyIj6/fPzP1p2SHTPpAcEbaz7q/d79t+wHeMh7kBES9AghAR2Ct9rkS1+YPPq73/T4uB6lYTqBvk4H0ERok/Z7998HCCEBiKCH0wOaqAEpufZapyeGFBiAtALufuQbs+Yoq9SVSXUIIQGRaXXchxirIZ/WF9C4xLMrys8fhSHuWIyDp8rkc+zmcgghAX8Rd9WJ9Io47Oq4MzkrawaWcf6/TZotuEGBiF3mbi/XCCEB4P1snScIJIcW619pu5R1kkGNXwfnjwFSnl50Kk6cYa0IIQHrw6sdhmQVgRMKw8cHe3G2e7pMkVUw6f5JuYdp/I3K6wghAUlvwBINhU51NLmSqzLsMEWyDUvuG/vkVk/Qks6voItyCCEBu0T9NqXzze57XG3zpgmKCeNTM1tgKfFHdQJYin43vgCIBQFRMCkCBFnUXJsEIQHLDNEQTBn4BvsHT5xjZJQxvxtmx8Y+wQA5efr8pKU574ALASIBFjEuMi44NDAuMTEzNTQ5LjEuMS4xMQCAAgEAm+ROI/0L7Cg82BBF9y4KUT1s28ATv6EP8l81H9Fx82fwqE0fvd1MuFrOlDgTI17SObeEJv5g/u/amTUguJUz1Dd7pkH+Pm40FCxYp8Rr81oG5NqMEsD2wwH88IDSfRLCn4xVNaBZazRY+j9NYScOIKiL0Hs8H1bkoeh6HaPyElNCm+5cyCzgDLAfMEtf244gt33mbRPHkQRoXKICUmfJf1OOBQxlSwcp06BCbsGsamewwDAPJVeMD2S0NeIAsn6VsWjt5LV4v4YCm9btMFEVIBAv2t+zEtzYqgWuA/tgEK4NrIf7y4Ee7gTMhry1c4ckwnih5YftevJjuvpZdUP8OQMEWu3dNQ==",
+    "details": {
+      "dataHash": {
+        "algorithm": "SHA-256",
+        "value": "FYOg7qSjRckBjU300Ii09yxlLeSvrZdLi1QjAClc8Uw="
+      },
+      "aggregationTime": 1507089563000,
+      "identity": "GT :: GT :: GT :: katja :: ot.hq6pr9"
+    },
+    "metadata": {
+      "id": "Test"
+    },
+    "createdBy": "ot.hq6pr9",
+    "createdAt": 1507089564091,
+    "verificationResult": {
+      "status": "OK",
+      "policyResults": [
+        {
+          "policyResultCode": "OK",
+          "policy": "KEY_BASED_POLICY"
+        }
+      ]
+    }
+  },
+  "JsonRequestBehavior": 1,
+  "MaxJsonLength": null,
+  "RecursionLimit": null
+}
+2017-10-04 11:59:23,455 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 12:00:25,520 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 12:00:25,538 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 12:00:25,568 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 12:00:25,569 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 12:00:25,581 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 12:00:26,305 [1] INFO  KSIConverter.Program [(null)] - {"DataHash":"FYOg7qSjRckBjU300Ii09yxlLeSvrZdLi1QjAClc8Uw=", "Metadata":"Test" }
+2017-10-04 12:00:28,245 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request POST : Create : OK
+2017-10-04 12:00:28,247 [1] INFO  KSIConverter.Program [(null)] - POST HTTP Web POST : Create : OK
+2017-10-04 12:00:28,394 [1] INFO  KSIConverter.Program [(null)] - RESULTS : GET : OK
+2017-10-04 12:00:28,422 [1] INFO  KSIConverter.Program [(null)] - Signature ID : 22ac139e-8ecd-4520-b8db-198eed4c6eb0
+2017-10-04 12:00:28,422 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 12:00:53,040 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 12:00:53,062 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 12:00:53,095 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 12:00:53,095 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 12:00:53,108 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 12:00:53,617 [1] INFO  KSIConverter.Program [(null)] - {"DataHash":"FYOg7qSjRckBjU300Ii09yxlLeSvrZdLi1QjAClc8Uw=", "Metadata":"Test" }
+2017-10-04 12:00:55,236 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request POST : Create : OK
+2017-10-04 12:00:55,236 [1] INFO  KSIConverter.Program [(null)] - POST HTTP Web POST : Create : OK
+2017-10-04 12:00:55,336 [1] INFO  KSIConverter.Program [(null)] - RESULTS : GET : OK
+2017-10-04 12:00:55,360 [1] INFO  KSIConverter.Program [(null)] - Signature ID : ad5c7b86-aa69-45e0-b9d3-c002756b217e
+2017-10-04 12:00:55,360 [1] INFO  KSIConverter.Program [(null)] - Done.
+2017-10-04 12:05:24,076 [1] INFO  KSIConverter.Program [(null)] - sFile>>>C:\Users\Nelson Lee\Desktop\Work\ksi-dev-guide.pdf
+2017-10-04 12:05:24,096 [1] INFO  KSIConverter.Program [(null)] - Calculating hash value...
+2017-10-04 12:05:24,124 [1] INFO  KSIConverter.Program [(null)] - Getting Signature...
+2017-10-04 12:05:24,124 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request : Create : OK
+2017-10-04 12:05:24,137 [1] INFO  KSIConverter.Program [(null)] - HTTP Web Request : Create : OK
+2017-10-04 12:05:25,152 [1] INFO  KSIConverter.Program [(null)] - {"DataHash":"FYOg7qSjRckBjU300Ii09yxlLeSvrZdLi1QjAClc8Uw=", "Metadata":"Test" }
+2017-10-04 12:05:27,236 [1] INFO  KSIConverter.Program [(null)] - Pre-HTTP Web Request POST : Create : OK
+2017-10-04 12:05:27,237 [1] INFO  KSIConverter.Program [(null)] - POST HTTP Web POST : Create : OK
+2017-10-04 12:05:27,376 [1] INFO  KSIConverter.Program [(null)] - RESULTS : GET : OK
+2017-10-04 12:05:27,402 [1] INFO  KSIConverter.Program [(null)] - Signature ID : 0ec1d52e-8ed1-4db4-b90f-26feb9a56088
+2017-10-04 12:05:27,403 [1] INFO  KSIConverter.Program [(null)] - Done.
